@@ -25,8 +25,8 @@ a {
   height: 100vh;
   background-image: url("./assets/bg-screen.jpg");
   background-color: white;
-  filter: blur(10px);
-  -webkit-filter: blur(10px);
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,16 +35,16 @@ a {
 #card {
   width: 275px;
   min-height: 500px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(61, 60, 60, 0.8);
   border-radius: 1rem;
-  box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.2);
+  box-shadow: 5px 5px 5px rgba(146, 146, 146, 0.2);
   position: relative;
   padding: 0 1rem;
 }
 
 .photo img {
-  width: 100px;
-  height: 100px;
+  width: 95px;
+  height: 95px;
   border-radius: 50%;
   object-fit: cover;
   margin: 0 auto;
@@ -68,7 +68,7 @@ a {
 }
 
 #body {
-  margin-top: 3.5rem;
+  margin-top: 3rem;
 }
 
 .button-call {
@@ -81,7 +81,6 @@ a {
   display: block;
   margin-bottom: 0.8rem;
   color: black;
-  border: 1px solid grey;
 }
 
 .footer {
@@ -107,4 +106,28 @@ a {
   font-size: 1.5rem;
   color: white;
   cursor: pointer;
+}
+
+
+#card-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 100vh;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.contact_qr{
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.back_button{
+  margin-top: 2rem;
 }
