@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Imam Sobirin
+N:Sobirin;Imam;;;
+ORG:PT. Hasnur Riung Sinergi
+TITLE:Monitoring Control
+TEL;TYPE=WORK,VOICE:(+62) 812-3456-7890
+EMAIL;TYPE=INTERNET:imam.sobirin@example.com
+ADR;TYPE=WORK:;;Jl. Tambang Raya No.1;Banjarmasin;Kalimantan Selatan;70123;Indonesia
+END:VCARD
